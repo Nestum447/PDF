@@ -7,7 +7,7 @@ def pdf_to_word(pdf_path, docx_path):
     cv.convert(docx_path, start=0, end=None)
     cv.close()
 
-st.title("Convertir PDF a Word")
+st.title("Convertir PDF a Word Cortesia Carpio")
 
 uploaded_file = st.file_uploader("Sube un archivo PDF", type=["pdf"])
 
